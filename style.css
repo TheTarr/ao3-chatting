@@ -1,44 +1,49 @@
-.left, .right {
-  min-height: 30px;
-  display: table;
-  text-align: center;
-  border-radius: 7px; /*这个长方形框圆角弧度*/
-  background-color: #9EEA6A; /*这个是左边聊天框颜色*/
+.pad {
+  margin: 0 auto;
+  background: tomato;
+  max-width: 800px;
 }
+
+.left, .right {
+  position: relative;
+  word-break: break-word;
+  display: table;
+  border-radius: 4px;
+  padding: 10px;
+  min-width: 200px;
+}
+
 .left {
+  float: left;
+  background: rgb(247, 241, 206);
+  margin-left: 3%;
+  margin-right: 40%;
 }
 
 .right {
-  left: 150px;
   float: right;
-  background-color: #FC3;
+  background: rgb(197, 213, 93);
+  margin-left: 40%;
+  margin-right: 3%;
 }
-
-/* .left > p, .right > p {
-  display: table-cell;
-  vertical-align: middle;
-  padding: 0 10px;
-} */
-
-
 
 .left:before,
 .right:after {
-  content: '';
+  content: "";
   display: block;
   width: 0;
   height: 0;
-  border: 16px solid transparent;
+  border: 12px solid transparent;
   position: absolute;
-  top: 11px;
+  top: 8px;
 }
 
 .left:before {
-  border-right: 16px solid #9EEA6A;
-  left: -30px;
+  border-right: 16px solid rgb(247, 241, 206);
+  left: -20px;
 }
 
 .right:after {
-  border-left: 16px solid #FC3;
-  right: -30px;
+  border-left: 16px solid rgb(197, 213, 93);
+  right: -20px;
 }
