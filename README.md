@@ -10,7 +10,7 @@ For detailed instruction (Chinese), please go: https://archiveofourown.org/works
 
 # Python convertor
 convertor.py:
- This css file is designed to convert txt file to html format accordingly which you can paste and post directly. To apply, you need to:
+ This additional python file is designed to convert txt file to html format accordingly which you can paste and post directly. To apply, you need to:
  1. Have python installed.
  2. Write your dialogue in txt, one line for a person (the program is stupid that it thinks the two person take turns line by line and left speaks first. If someone speak twice, you can use some random word as placeholder for another person and delete the bubble later).
  3. Paste the content in dialogue.txt
