@@ -1,4 +1,4 @@
-# convertor.exe
+# convertor_v2.exe
 windows可以下载这个exe，双击启动，转换完的直接贴在txt
 
 # ao3-chatting (wechat)
