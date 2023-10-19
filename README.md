@@ -1,3 +1,6 @@
+# convertor.exe
+windows可以下载这个exe，双击启动，转换完的直接贴在txt
+
 # ao3-chatting (wechat)
  style.css:
  This css file is a ao3 work skin designed for chating (wechat). To apply, you need to:
