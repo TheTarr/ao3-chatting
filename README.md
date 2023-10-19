@@ -1,5 +1,5 @@
 # convertor_v2.exe
-windows可以下载这个exe，双击启动，转换完的直接贴在txt
+windows可以下载这个exe，双击启动，转换完的直接贴在ao3的html文本框
 
 # ao3-chatting (wechat)
  style.css:
